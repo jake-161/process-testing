@@ -15,7 +15,7 @@ This repo exists to test different strategic process implementations to streamli
 
 ## Mistakes Noticed
 
-- Commiting directly to main. This should be disabled. Branches for different scopes (apps/repo) should be used
+- Commiting directly to main. This should be disabled. Branches for different scopes (apps/repo) should be used. Just made the mistake again. Now editing on dedicated repo branch. Hopefully rulesets are enforced for orgs.
 - Typos in directory names. This could be automated. Luckily fixing is straigh forward
 
 ## App Directory
