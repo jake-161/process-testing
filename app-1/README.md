@@ -10,14 +10,14 @@ This is to highlight the main src, where dependencies are, and any additons/devi
 Please explain critical directories with inline comments. For example:
 
 ```
-
-app_1
+app-1/
+├── auterion-app.yml
+├── Dockerfile
 ├── README.md
-├── special_resource # resource files for special protocol
+├── special_resource    # some special resource that the program depends on
 └── src
-    └── main.code # main entry point for the solution
-
-
+    ├── CMakeLists.txt  
+    └── main.cpp        # main entry point to program
 ```
 
 ## Deploy
