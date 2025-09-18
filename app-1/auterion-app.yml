@@ -1,0 +1,11 @@
+auterion-api-version: 2
+auterion-app-base: v2
+
+app-name: app-1
+app-author: com.censys
+app-version: 0.0.1
+target-platform: [skynode, skynode-s, arkjetson]
+
+services:
+  app-1:
+    build: .
