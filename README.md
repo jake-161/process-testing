@@ -16,4 +16,4 @@ This repo exists to test different strategic process implementations to streamli
 
 ## App Directory
 
-- [App_1](./app_1/README.md)
+- [App_1](./app-1/README.md)
