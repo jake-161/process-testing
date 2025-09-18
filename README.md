@@ -10,9 +10,13 @@ This repo exists to test different strategic process implementations to streamli
 - Conventional commit messages following [this standard](https://www.conventionalcommits.org/en/v1.0.0-beta.4/#specification) with attention on [these tips](https://cbea.ms/git-commit/), an alternative could be clean commit messages that are combined into a PR message with convention responsibility falling on whoever is merging the PR.
 
 ## Potential Tooling
+
 - Commit Lint CLI tool such as [glint](https://github.com/brigand/glint?tab=readme-ov-file)
 
+## Mistakes Noticed
 
+- Commiting directly to main. This should be disabled. Branches for different scopes (apps/repo) should be used
+- Typos in directory names. This could be automated. Luckily fixing is straigh forward
 
 ## App Directory
 
