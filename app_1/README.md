@@ -20,3 +20,28 @@ app_1
 
 ```
 
+## Deploy
+
+1. Install dependencies
+
+```sh
+sudo apt install make cmake
+```
+
+2. Build
+
+```sh
+auterion-cli app build
+```
+
+3. Install
+
+```sh
+auterion-cli app install build/com.censys.app-1-0.0.1.auterionos
+```
+
+3. Test
+
+```
+auterion-cli app logs com.censys.app-1-0.0.1auterionos -f
+```
